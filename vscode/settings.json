@@ -1,0 +1,16 @@
+{
+    "search.exclude": {
+        "**/.cache": true,
+        "**/.cargo": true,
+        "**/.config": true,
+        "**/.dotnet": true,
+        "**/.landscape": true,
+        "**/.local": true,
+        "**/.npm": true,
+        "**/.pki": true,
+        "**/.rustup": true,
+        "**/.vscode": true,
+        "**/.vscode-remote-containers": true,
+        "**/.vscode-server": true,
+    }
+}
