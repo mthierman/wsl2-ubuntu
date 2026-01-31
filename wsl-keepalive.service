@@ -1,0 +1,11 @@
+[Unit]
+Description=WSL Keepalive Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/sleep infinity
+Restart=always
+
+[Install]
+WantedBy=default.target
